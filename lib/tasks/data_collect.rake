@@ -19,7 +19,6 @@ namespace :data_collect do
     count_initiated = 0; count_in_dispute = 0; count_refunded = 0;
     while report.next_page?
       report.next_page!
-      p report.transactions.count
       report.transactions.each do |transaction|
 
         if transaction.gross_amount % 430.00 == 0
