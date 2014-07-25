@@ -18,7 +18,7 @@
   <% @transactions.each do |transaction|%>
       <tr>
         <td><%= count %></td>
-        <td><%= l transaction.date %></td>
+        <td><%= transaction.date %></td>
         <td><%= transaction.qtd_initiated %></td>
         <td><%= transaction.qtd_open %></td>
         <td><%= transaction.qtd_available %></td>
