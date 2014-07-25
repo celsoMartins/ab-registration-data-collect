@@ -4,7 +4,7 @@ namespace :data_collect do
 
   task collect: :environment do
 
-    # credential = Credentials.first
+    credential = Credentials.first
     PagSeguro.configure do |config|
       config.token = credential.token
       config.email = credential.email
