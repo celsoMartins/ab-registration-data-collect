@@ -71,7 +71,7 @@ test:
 production:
   sessions:
     default:
-      uri: <%= ENV['MONGOHQ_URL'] %>
+      uri: <%= ENV['MONGOLAB_URI'] %>
       options:
         read: primary
         # In the test environment we lower the retries and retry interval to
