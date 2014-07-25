@@ -6,8 +6,11 @@ namespace :data_collect do
 
     credential = Credentials.first
     PagSeguro.configure do |config|
-      config.token = credential.token
-      config.email = credential.email
+      # config.token = credential.token
+      # config.email = credential.email
+
+      config.token = 'alexandra.martins@agilealliance.org'
+      config.email = 'DC87C64A965F4F008902F721E050F32E'
     end
 
     report = PagSeguro::Transaction.find_by_date(:starts_at => 30.days.ago, :ends_at => Time.now)
