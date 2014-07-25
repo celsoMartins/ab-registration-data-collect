@@ -1,0 +1,34 @@
+<h1>Lista de inscritos</h1>
+<table border="1">
+  <tr>
+    <td>#</td>
+    <td>Data do Report</td>
+    <td>Iniciado</td>
+    <td>Aberta</td>
+    <td>Disponível</td>
+    <td>Em Análise</td>
+    <td>Paga</td>
+    <td>Em Disputa</td>
+    <td>Reembolsada</td>
+    <td>Cancelada</td>
+    <td>Total</td>
+  </tr>
+
+  <% count = 1 %>
+  <% @transactions.each do |transaction|%>
+      <tr>
+        <td><%= count %></td>
+        <td><%= l transaction.date %></td>
+        <td><%= transaction.qtd_initiated %></td>
+        <td><%= transaction.qtd_open %></td>
+        <td><%= transaction.qtd_available %></td>
+        <td><%= transaction.qtd_in_analysis %></td>
+        <td><%= transaction.qtd_paid %></td>
+        <td><%= transaction.qtd_in_dispute %></td>
+        <td><%= transaction.qtd_refunded %></td>
+        <td><%= transaction.qtd_cancelled %></td>
+        <td><%= transaction.qtd_total %></td>
+        <% count += 1%>
+      </tr>
+<% end %>
+</table>

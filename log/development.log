@@ -1,0 +1,1705 @@
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 39.4505ms
+  MOPED: 127.0.0.1:27017 INSERT       database=aluminium_development collection=ab_transactions documents=[{"_id"=>BSON::ObjectId('53d1579f63656c1f1c000000'), "updated_at"=>2014-07-24 18:59:43 UTC, "created_at"=>2014-07-24 18:59:43 UTC}] flags=[]
+                         COMMAND      database=aluminium_development command={:getlasterror=>1, :w=>1} runtime: 276.1910ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9524ms
+  MOPED: 127.0.0.1:27017 INSERT       database=aluminium_development collection=ab_transactions documents=[{"_id"=>BSON::ObjectId('53d157bc63656c1f41000000'), "updated_at"=>2014-07-24 19:00:12 UTC, "created_at"=>2014-07-24 19:00:12 UTC}] flags=[]
+                         COMMAND      database=aluminium_development command={:getlasterror=>1, :w=>1} runtime: 0.6479ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9202ms
+  MOPED: 127.0.0.1:27017 INSERT       database=aluminium_development collection=ab_transactions documents=[{"_id"=>BSON::ObjectId('53d1584f63656c1f7b000000'), "updated_at"=>2014-07-24 19:02:39 UTC, "created_at"=>2014-07-24 19:02:39 UTC}] flags=[]
+                         COMMAND      database=aluminium_development command={:getlasterror=>1, :w=>1} runtime: 0.5827ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9168ms
+  MOPED: 127.0.0.1:27017 INSERT       database=aluminium_development collection=ab_transactions documents=[{"_id"=>BSON::ObjectId('53d1587763656c1fbb000000'), "date"=>2014-07-24 00:00:00 UTC, "qtd_open"=>16, "qtd_cancelled"=>6, "qtd_paid"=>86, "qtd_total"=>108, "updated_at"=>2014-07-24 19:03:19 UTC, "created_at"=>2014-07-24 19:03:19 UTC}] flags=[]
+                         COMMAND      database=aluminium_development command={:getlasterror=>1, :w=>1} runtime: 0.6715ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1523ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 28.0739ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=aluminium_development command={:count=>"ab_transactions", :query=>{}} runtime: 23.2318ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9512ms
+  MOPED: 127.0.0.1:27017 DELETE       database=aluminium_development collection=ab_transactions selector={"_id"=>BSON::ObjectId('53d1579f63656c1f1c000000')} flags=[:remove_first]
+                         COMMAND      database=aluminium_development command={:getlasterror=>1, :w=>1} runtime: 14.5557ms
+  MOPED: 127.0.0.1:27017 DELETE       database=aluminium_development collection=ab_transactions selector={"_id"=>BSON::ObjectId('53d157bc63656c1f41000000')} flags=[:remove_first]
+                         COMMAND      database=aluminium_development command={:getlasterror=>1, :w=>1} runtime: 0.7255ms
+  MOPED: 127.0.0.1:27017 DELETE       database=aluminium_development collection=ab_transactions selector={"_id"=>BSON::ObjectId('53d1584f63656c1f7b000000')} flags=[:remove_first]
+                         COMMAND      database=aluminium_development command={:getlasterror=>1, :w=>1} runtime: 0.7145ms
+  MOPED: 127.0.0.1:27017 DELETE       database=aluminium_development collection=ab_transactions selector={"_id"=>BSON::ObjectId('53d1587763656c1fbb000000')} flags=[:remove_first]
+                         COMMAND      database=aluminium_development command={:getlasterror=>1, :w=>1} runtime: 0.7122ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6657ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.6917ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4644ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6538ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6147ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6280ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3628ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9853ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2868ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8442ms
+  MOPED: 127.0.0.1:27017 INSERT       database=aluminium_development collection=ab_transactions documents=[{"_id"=>BSON::ObjectId('53d15c6b63656c21b8000000'), "date"=>2014-07-24 00:00:00 UTC, "qtd_open"=>14, "qtd_cancelled"=>6, "qtd_paid"=>88, "qtd_total"=>108, "updated_at"=>2014-07-24 19:20:11 UTC, "created_at"=>2014-07-24 19:20:11 UTC}] flags=[]
+                         COMMAND      database=aluminium_development command={:getlasterror=>1, :w=>1} runtime: 0.3676ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8921ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=aluminium_development command={:count=>"ab_transactions", :query=>{}} runtime: 0.8705ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6855ms
+  MOPED: 127.0.0.1:27017 DELETE       database=aluminium_development collection=ab_transactions selector={"_id"=>BSON::ObjectId('53d15c6b63656c21b8000000')} flags=[:remove_first]
+                         COMMAND      database=aluminium_development command={:getlasterror=>1, :w=>1} runtime: 0.8940ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6377ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8525ms
+  MOPED: 127.0.0.1:27017 INSERT       database=aluminium_development collection=ab_transactions documents=[{"_id"=>BSON::ObjectId('53d15cdd63656c21fe000000'), "date"=>2014-07-24 00:00:00 UTC, "qtd_open"=>14, "qtd_cancelled"=>6, "qtd_paid"=>88, "qtd_total"=>108, "updated_at"=>2014-07-24 19:22:05 UTC, "created_at"=>2014-07-24 19:22:05 UTC}] flags=[]
+                         COMMAND      database=aluminium_development command={:getlasterror=>1, :w=>1} runtime: 0.5004ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8999ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6435ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6280ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5108ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4519ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 207.9636ms
+  MOPED: 127.0.0.1:27017 INSERT       database=aluminium_development collection=ab_transactions documents=[{"_id"=>BSON::ObjectId('53d1ac2063656c3492000000'), "date"=>2014-07-24 00:00:00 UTC, "qtd_open"=>12, "qtd_cancelled"=>8, "qtd_paid"=>86, "qtd_total"=>108, "updated_at"=>2014-07-25 01:00:15 UTC, "created_at"=>2014-07-25 01:00:15 UTC}] flags=[]
+                         COMMAND      database=aluminium_development command={:getlasterror=>1, :w=>1} runtime: 98.0967ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1121ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 25.7060ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-24 22:55:05 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 42ms (Views: 25.9ms)
+
+
+Started GET "/transaction" for 127.0.0.1 at 2014-07-24 22:55:15 -0300
+
+ActionController::RoutingError (No route matches [GET] "/transaction"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.0.2) lib/rails/commands/server.rb:84:in `start'
+  railties (4.0.2) lib/rails/commands.rb:76:in `block in <top (required)>'
+  railties (4.0.2) lib/rails/commands.rb:71:in `tap'
+  railties (4.0.2) lib/rails/commands.rb:71:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (34.6ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (152.4ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2014-07-24 22:55:24 -0300
+
+ActionController::RoutingError (No route matches [GET] "/index.html"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.0.2) lib/rails/commands/server.rb:84:in `start'
+  railties (4.0.2) lib/rails/commands.rb:76:in `block in <top (required)>'
+  railties (4.0.2) lib/rails/commands.rb:71:in `tap'
+  railties (4.0.2) lib/rails/commands.rb:71:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (18.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-24 22:55:38 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-24 22:56:04 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-24 22:56:08 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 2.0ms)
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-24 22:57:15 -0300
+Processing by TransactionController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NameError (uninitialized constant TransactionController::Transaction):
+  app/controllers/transaction_controller.rb:3:in `index'
+
+
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-24 22:57:46 -0300
+Processing by TransactionController#index as HTML
+Completed 500 Internal Server Error in 13ms
+
+ActionView::MissingTemplate (Missing template transaction/index, application/index with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/celso/workspace/oncast/rails/ab-registration-data-collect/app/views"
+):
+  actionpack (4.0.2) lib/action_view/path_set.rb:46:in `find'
+  actionpack (4.0.2) lib/action_view/lookup_context.rb:122:in `find'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.2) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/celso/.rbenv/versions/2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:403:in `_run__2987764276904580195__process_action__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__3062149378766212167__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.0.2) lib/rails/commands/server.rb:84:in `start'
+  railties (4.0.2) lib/rails/commands.rb:76:in `block in <top (required)>'
+  railties (4.0.2) lib/rails/commands.rb:71:in `tap'
+  railties (4.0.2) lib/rails/commands.rb:71:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.1ms)
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-24 22:59:42 -0300
+Processing by TransactionController#index as HTML
+  Rendered transaction/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1183ms (Views: 1181.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 22:59:44 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-24 22:59:44 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 22:59:44 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 22:59:44 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-24 22:59:44 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-24 22:59:44 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 22:59:44 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-24 23:04:15 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9419ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5020ms
+  Rendered transaction/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 13ms (Views: 12.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 23:04:15 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-24 23:04:15 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 23:04:15 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 23:04:15 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-24 23:04:15 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-24 23:04:15 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 23:04:15 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-24 23:04:30 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6560ms
+  Rendered transaction/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 13ms (Views: 11.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 23:04:31 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-24 23:04:31 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 23:04:31 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 23:04:31 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-24 23:04:31 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-24 23:04:31 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 23:04:31 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-24 23:08:02 -0300
+Processing by TransactionController#index as HTML
+  Rendered transaction/index.html.erb within layouts/application (11.3ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined local variable or method `transaction' for #<#<Class:0x007f6155662430>:0x007f61545b3ad0>):
+    1: <h1>Lista de inscritos</h1>
+    2: <table>
+    3:   <tr><td>Data Report</td><td>Qtd Pago</td><td>Qtd Aberto</td><td>Qtd Canceladas</td><td>Qtd Total</td></tr>
+    4:   <tr><td><%= transaction.date %></td><td><%= transaction.qtd_paid %></td><td><%= transaction.qtd_open %></td><td><%= transaction.qtd_cancelled %></td><td><%= transaction.qtd_total %></td></tr>
+    5: </table>
+    6: <% @transactions.each do |transaction|%>
+    7:     <p></p>
+  app/views/transaction/index.html.erb:4:in `_app_views_transaction_index_html_erb__1580440480109272026_70028001905960'
+
+
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.4ms)
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-24 23:08:45 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0249ms
+  Rendered transaction/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 16ms (Views: 14.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 23:08:45 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-24 23:08:45 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 23:08:45 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 23:08:45 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-24 23:08:45 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-24 23:08:45 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 23:08:45 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-24 23:09:16 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6782ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6291ms
+  Rendered transaction/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 10ms (Views: 9.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 23:09:16 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-24 23:09:16 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 23:09:16 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 23:09:16 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-24 23:09:16 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-24 23:09:16 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 23:09:16 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-24 23:10:06 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8746ms
+  Rendered transaction/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 10ms (Views: 9.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 23:10:06 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-24 23:10:06 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 23:10:07 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 23:10:07 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-24 23:10:07 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-24 23:10:07 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 23:10:07 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-24 23:10:09 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6219ms
+  Rendered transaction/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 23:10:09 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-24 23:10:09 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 23:10:09 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 23:10:09 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-24 23:10:09 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-24 23:10:09 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 23:10:09 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-24 23:10:09 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5947ms
+  Rendered transaction/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 23:10:10 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-24 23:10:10 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 23:10:10 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 23:10:10 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-24 23:10:10 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-24 23:10:10 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 23:10:10 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-24 23:49:47 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5041ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6374ms
+  Rendered transaction/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 20ms (Views: 9.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 23:49:47 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-24 23:49:47 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 23:49:47 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 23:49:47 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-24 23:49:47 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-24 23:49:47 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 23:49:47 -0300
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1042ms
+  MOPED: 127.0.0.1:27017 INSERT       database=aluminium_development collection=ab_transactions documents=[{"_id"=>BSON::ObjectId('53d1c5e063656c3b58000000'), "date"=>2014-07-24 00:00:00 UTC, "qtd_open"=>12, "qtd_cancelled"=>8, "qtd_paid"=>86, "qtd_available"=>0, "qtd_total"=>108, "updated_at"=>2014-07-25 02:50:08 UTC, "created_at"=>2014-07-25 02:50:08 UTC}] flags=[]
+                         COMMAND      database=aluminium_development command={:getlasterror=>1, :w=>1} runtime: 343.4465ms
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-24 23:50:11 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6291ms
+  Rendered transaction/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 7ms (Views: 6.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 23:50:11 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-24 23:50:11 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 23:50:11 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 23:50:11 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-24 23:50:11 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-24 23:50:11 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 23:50:11 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-24 23:53:08 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9633ms
+  Rendered transaction/index.html.erb within layouts/application (109.3ms)
+Completed 200 OK in 130ms (Views: 119.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 23:53:08 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-24 23:53:08 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 23:53:08 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 23:53:08 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-24 23:53:08 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-24 23:53:08 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 23:53:08 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-24 23:53:11 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6380ms
+  Rendered transaction/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 9ms (Views: 7.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 23:53:11 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-24 23:53:11 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 23:53:11 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 23:53:11 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-24 23:53:11 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-24 23:53:11 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 23:53:11 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-24 23:53:12 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6550ms
+  Rendered transaction/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 9ms (Views: 8.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 23:53:12 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-24 23:53:12 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 23:53:12 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 23:53:12 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-24 23:53:12 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-24 23:53:12 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 23:53:12 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-24 23:54:19 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6589ms
+  Rendered transaction/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 10ms (Views: 8.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 23:54:20 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-24 23:54:20 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 23:54:20 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 23:54:20 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-24 23:54:20 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-24 23:54:20 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 23:54:20 -0300
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0683ms
+  MOPED: 127.0.0.1:27017 INSERT       database=aluminium_development collection=ab_transactions documents=[{"_id"=>BSON::ObjectId('53d1c70563656c3bc7000000'), "date"=>2014-07-24 00:00:00 UTC, "qtd_open"=>12, "qtd_cancelled"=>8, "qtd_paid"=>86, "qtd_available"=>0, "qtd_in_analysis"=>2, "qtd_total"=>108, "updated_at"=>2014-07-25 02:55:01 UTC, "created_at"=>2014-07-25 02:55:01 UTC}] flags=[]
+                         COMMAND      database=aluminium_development command={:getlasterror=>1, :w=>1} runtime: 0.7281ms
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-24 23:55:04 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5097ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5768ms
+  Rendered transaction/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 7ms (Views: 6.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 23:55:04 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-24 23:55:04 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 23:55:04 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 23:55:04 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-24 23:55:04 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-24 23:55:04 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 23:55:04 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-24 23:55:50 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7400ms
+  Rendered transaction/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 9ms (Views: 8.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 23:55:50 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-24 23:55:50 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 23:55:50 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 23:55:50 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-24 23:55:50 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-24 23:55:50 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 23:55:50 -0300
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2158ms
+  MOPED: 127.0.0.1:27017 INSERT       database=aluminium_development collection=ab_transactions documents=[{"_id"=>BSON::ObjectId('53d1c85663656c3c2e000000'), "date"=>2014-07-25 03:00:38 UTC, "qtd_open"=>12, "qtd_cancelled"=>8, "qtd_paid"=>86, "qtd_available"=>0, "qtd_in_analysis"=>2, "qtd_total"=>108, "updated_at"=>2014-07-25 03:00:38 UTC, "created_at"=>2014-07-25 03:00:38 UTC}] flags=[]
+                         COMMAND      database=aluminium_development command={:getlasterror=>1, :w=>1} runtime: 0.7941ms
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:00:46 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5141ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8101ms
+  Rendered transaction/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 25ms (Views: 10.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-25 00:00:46 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-25 00:00:46 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-25 00:00:46 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-25 00:00:46 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-25 00:00:46 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 00:00:46 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 00:00:46 -0300
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1523ms
+  MOPED: 127.0.0.1:27017 INSERT       database=aluminium_development collection=ab_transactions documents=[{"_id"=>BSON::ObjectId('53d1c99d63656c3cfa000000'), "date"=>2014-07-25 03:06:05 UTC, "qtd_open"=>12, "qtd_cancelled"=>8, "qtd_paid"=>86, "qtd_available"=>0, "qtd_in_analysis"=>2, "qtd_total"=>108, "updated_at"=>2014-07-25 03:06:05 UTC, "created_at"=>2014-07-25 03:06:05 UTC}] flags=[]
+                         COMMAND      database=aluminium_development command={:getlasterror=>1, :w=>1} runtime: 0.7440ms
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:06:12 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5145ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9026ms
+  Rendered transaction/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 11ms (Views: 10.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-25 00:06:12 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-25 00:06:12 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-25 00:06:12 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-25 00:06:12 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-25 00:06:12 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 00:06:12 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 00:06:12 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:08:12 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2029ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9148ms
+  Rendered transaction/index.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 124ms (Views: 93.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-25 00:08:12 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-25 00:08:12 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-25 00:08:12 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-25 00:08:12 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-25 00:08:12 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 00:08:12 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 00:08:12 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:10:53 -0300
+Processing by TransactionController#index as HTML
+ERROR: compiling _app_views_transaction_index_html_erb___3635498668879397512_70069746554100 RAISED /home/celso/workspace/oncast/rails/ab-registration-data-collect/app/views/transaction/index.html.erb:15: unknown type of %string
+...( transaction.date.strftime(%Y-%m-%dT%H:%MZ) );@output_buffe...
+...                               ^
+/home/celso/workspace/oncast/rails/ab-registration-data-collect/app/views/transaction/index.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+...( transaction.date.strftime(%Y-%m-%dT%H:%MZ) );@output_buffe...
+...                               ^
+Function body:           def _app_views_transaction_index_html_erb___3635498668879397512_70069746554100(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "transaction/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='<h1>Lista de inscritos</h1>
+<table border="1">
+  <tr>
+    <td>Data do Report</td>
+    <td>Qtd Aberto</td>
+    <td>Qtd Disponíveis</td>
+    <td>Em Análise</td>
+    <td>Qtd Pago</td>
+    <td>Qtd Total</td>
+    <td>Qtd Canceladas</td>
+  </tr>
+
+';   @transactions.each do |transaction|
+@output_buffer.safe_append='      <tr>
+        <td>';@output_buffer.append=( transaction.date.strftime(%Y-%m-%dT%H:%MZ) );@output_buffer.safe_append='</td>
+        <td>';@output_buffer.append=( transaction.qtd_open );@output_buffer.safe_append='</td>
+        <td>';@output_buffer.append=( transaction.qtd_available );@output_buffer.safe_append='</td>
+        <td>';@output_buffer.append=( transaction.qtd_in_analysis );@output_buffer.safe_append='</td>
+        <td>';@output_buffer.append=( transaction.qtd_paid );@output_buffer.safe_append='</td>
+        <td>';@output_buffer.append=( transaction.qtd_total );@output_buffer.safe_append='</td>
+        <td>';@output_buffer.append=( transaction.qtd_cancelled );@output_buffer.safe_append='</td>
+      </tr>
+'; end 
+@output_buffer.safe_append='</table>
+';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_view/template.rb:299:in `module_eval'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_view/template.rb:299:in `compile'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_view/template.rb:248:in `block in compile!'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_view/template.rb:236:in `synchronize'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_view/template.rb:236:in `compile!'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_view/template.rb:142:in `block in render'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/notifications.rb:161:in `instrument'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_view/template.rb:141:in `render'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:23:in `render'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:97:in `render'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:189:in `process_action'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:403:in `_run__1799386389626645593__process_action__callbacks'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:136:in `process'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:44:in `process'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal.rb:195:in `dispatch'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal.rb:231:in `block in action'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `each'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:680:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:373:in `_run__3598677540599961823__call__callbacks'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+/home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+bin/rails:4:in `require'
+bin/rails:4:in `<main>'
+  Rendered transaction/index.html.erb within layouts/application (18.8ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (/home/celso/workspace/oncast/rails/ab-registration-data-collect/app/views/transaction/index.html.erb:15: unknown type of %string
+...( transaction.date.strftime(%Y-%m-%dT%H:%MZ) );@output_buffe...
+...                               ^
+/home/celso/workspace/oncast/rails/ab-registration-data-collect/app/views/transaction/index.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+...( transaction.date.strftime(%Y-%m-%dT%H:%MZ) );@output_buffe...
+...                               ^):
+    12: 
+    13:   <% @transactions.each do |transaction|%>
+    14:       <tr>
+    15:         <td><%= transaction.date.strftime(%Y-%m-%dT%H:%MZ) %></td>
+    16:         <td><%= transaction.qtd_open %></td>
+    17:         <td><%= transaction.qtd_available %></td>
+    18:         <td><%= transaction.qtd_in_analysis %></td>
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.2) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.2) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.2) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.2) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/celso/.rbenv/versions/2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:403:in `_run__1799386389626645593__process_action__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__3598677540599961823__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.0.2) lib/rails/commands/server.rb:84:in `start'
+  railties (4.0.2) lib/rails/commands.rb:76:in `block in <top (required)>'
+  railties (4.0.2) lib/rails/commands.rb:71:in `tap'
+  railties (4.0.2) lib/rails/commands.rb:71:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.1ms)
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:12:38 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7329ms
+  Rendered transaction/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 8ms (Views: 6.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-25 00:12:38 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-25 00:12:38 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-25 00:12:38 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-25 00:12:38 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-25 00:12:38 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 00:12:38 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 00:12:38 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:18:30 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4812ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9641ms
+  Rendered transaction/index.html.erb within layouts/application (15.1ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (can not load translations from /home/celso/workspace/oncast/rails/ab-registration-data-collect/config/locales/en.yml: expects it to return a hash, but does not):
+    12: 
+    13:   <% @transactions.each do |transaction|%>
+    14:       <tr>
+    15:         <td><%= l transaction.date %></td>
+    16:         <td><%= transaction.qtd_open %></td>
+    17:         <td><%= transaction.qtd_available %></td>
+    18:         <td><%= transaction.qtd_in_analysis %></td>
+  app/views/transaction/index.html.erb:15:in `block in _app_views_transaction_index_html_erb___3635498668879397512_70069751153020'
+  app/views/transaction/index.html.erb:13:in `_app_views_transaction_index_html_erb___3635498668879397512_70069751153020'
+
+
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.5ms)
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:20:52 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8528ms
+  Rendered transaction/index.html.erb within layouts/application (13.2ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (can not load translations from /home/celso/workspace/oncast/rails/ab-registration-data-collect/config/locales/en.yml: expects it to return a hash, but does not):
+    12: 
+    13:   <% @transactions.each do |transaction|%>
+    14:       <tr>
+    15:         <td><%= l transaction.date %></td>
+    16:         <td><%= transaction.qtd_open %></td>
+    17:         <td><%= transaction.qtd_available %></td>
+    18:         <td><%= transaction.qtd_in_analysis %></td>
+  app/views/transaction/index.html.erb:15:in `block in _app_views_transaction_index_html_erb___3635498668879397512_70069751153020'
+  app/views/transaction/index.html.erb:13:in `_app_views_transaction_index_html_erb___3635498668879397512_70069751153020'
+
+
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.6ms)
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:20:56 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7815ms
+  Rendered transaction/index.html.erb within layouts/application (14.7ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (can not load translations from /home/celso/workspace/oncast/rails/ab-registration-data-collect/config/locales/en.yml: expects it to return a hash, but does not):
+    12: 
+    13:   <% @transactions.each do |transaction|%>
+    14:       <tr>
+    15:         <td><%= l transaction.date %></td>
+    16:         <td><%= transaction.qtd_open %></td>
+    17:         <td><%= transaction.qtd_available %></td>
+    18:         <td><%= transaction.qtd_in_analysis %></td>
+  app/views/transaction/index.html.erb:15:in `block in _app_views_transaction_index_html_erb___3635498668879397512_70069751153020'
+  app/views/transaction/index.html.erb:13:in `_app_views_transaction_index_html_erb___3635498668879397512_70069751153020'
+
+
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.3ms)
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:20:57 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7469ms
+  Rendered transaction/index.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (can not load translations from /home/celso/workspace/oncast/rails/ab-registration-data-collect/config/locales/en.yml: expects it to return a hash, but does not):
+    12: 
+    13:   <% @transactions.each do |transaction|%>
+    14:       <tr>
+    15:         <td><%= l transaction.date %></td>
+    16:         <td><%= transaction.qtd_open %></td>
+    17:         <td><%= transaction.qtd_available %></td>
+    18:         <td><%= transaction.qtd_in_analysis %></td>
+  app/views/transaction/index.html.erb:15:in `block in _app_views_transaction_index_html_erb___3635498668879397512_70069751153020'
+  app/views/transaction/index.html.erb:13:in `_app_views_transaction_index_html_erb___3635498668879397512_70069751153020'
+
+
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/celso/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.7ms)
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:21:09 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0244ms
+  Rendered transaction/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 27ms (Views: 16.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-25 00:21:09 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-25 00:21:09 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-25 00:21:09 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-25 00:21:09 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-25 00:21:09 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 00:21:09 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 00:21:09 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:26:34 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5191ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.1310ms
+  Rendered transaction/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 23ms (Views: 12.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-25 00:26:35 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-25 00:26:35 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-25 00:26:35 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-25 00:26:35 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-25 00:26:35 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 00:26:35 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 00:26:35 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:27:09 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9101ms
+  Rendered transaction/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10ms (Views: 9.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-25 00:27:09 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-25 00:27:09 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-25 00:27:09 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-25 00:27:09 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-25 00:27:09 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 00:27:09 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 00:27:09 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:32:26 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5416ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8639ms
+  Rendered transaction/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 24ms (Views: 13.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-25 00:32:27 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-25 00:32:27 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-25 00:32:27 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-25 00:32:27 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-25 00:32:27 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 00:32:27 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 00:32:27 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:34:37 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9914ms
+  Rendered transaction/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 19ms (Views: 9.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-25 00:34:37 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-25 00:34:37 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-25 00:34:37 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-25 00:34:37 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-25 00:34:37 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 00:34:37 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 00:34:37 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:35:05 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7386ms
+  Rendered transaction/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 8ms (Views: 8.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-25 00:35:05 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-25 00:35:05 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-25 00:35:05 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-25 00:35:05 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-25 00:35:05 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 00:35:05 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 00:35:05 -0300
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0961ms
+  MOPED: 127.0.0.1:27017 INSERT       database=aluminium_development collection=ab_transactions documents=[{"_id"=>BSON::ObjectId('53d1d08c63656c3e99000000'), "date"=>2014-07-25 03:35:40 UTC, "qtd_initiated"=>0, "qtd_open"=>12, "qtd_paid"=>86, "qtd_available"=>0, "qtd_in_analysis"=>2, "qtd_total"=>108, "qtd_cancelled"=>8, "qtd_in_dispute"=>0, "qtd_refunded"=>0, "updated_at"=>2014-07-25 03:35:40 UTC, "created_at"=>2014-07-25 03:35:40 UTC}] flags=[]
+                         COMMAND      database=aluminium_development command={:getlasterror=>1, :w=>1} runtime: 0.6626ms
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:36:00 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0941ms
+  Rendered transaction/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 12ms (Views: 10.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-25 00:36:00 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-25 00:36:00 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-25 00:36:00 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-25 00:36:00 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-25 00:36:00 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 00:36:00 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 00:36:00 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:36:39 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.1465ms
+  Rendered transaction/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 11ms (Views: 10.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-25 00:36:39 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-25 00:36:39 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-25 00:36:39 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-25 00:36:39 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-25 00:36:39 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 00:36:39 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 00:36:39 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:36:47 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8242ms
+  Rendered transaction/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 11ms (Views: 10.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-25 00:36:47 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-25 00:36:47 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-25 00:36:47 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-25 00:36:47 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-25 00:36:47 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 00:36:47 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 00:36:47 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:36:54 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.2416ms
+  Rendered transaction/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 14ms (Views: 13.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-25 00:36:55 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-25 00:36:55 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-25 00:36:55 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-25 00:36:55 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-25 00:36:55 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 00:36:55 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 00:36:55 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:37:03 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0619ms
+  Rendered transaction/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 11ms (Views: 10.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-25 00:37:03 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-25 00:37:03 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-25 00:37:03 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-25 00:37:03 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-25 00:37:03 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 00:37:03 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 00:37:03 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 00:38:11 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5538ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0266ms
+  Rendered transaction/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 13ms (Views: 12.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-25 00:38:11 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-25 00:38:11 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-25 00:38:11 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-25 00:38:11 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-25 00:38:11 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 00:38:11 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 00:38:11 -0300
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1674ms
+  MOPED: 127.0.0.1:27017 INSERT       database=aluminium_development collection=ab_transactions documents=[{"_id"=>BSON::ObjectId('53d254d963656c4e6f000000'), "date"=>2014-07-25 13:00:09 UTC, "qtd_initiated"=>0, "qtd_open"=>4, "qtd_paid"=>94, "qtd_available"=>0, "qtd_in_analysis"=>2, "qtd_total"=>108, "qtd_cancelled"=>8, "qtd_in_dispute"=>0, "qtd_refunded"=>0, "updated_at"=>2014-07-25 13:00:09 UTC, "created_at"=>2014-07-25 13:00:09 UTC}] flags=[]
+                         COMMAND      database=aluminium_development command={:getlasterror=>1, :w=>1} runtime: 0.7245ms
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 10:51:20 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5796ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7556ms
+  Rendered transaction/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10ms (Views: 9.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-25 10:51:20 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-25 10:51:20 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-25 10:51:20 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-25 10:51:20 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-25 10:51:20 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 10:51:20 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 10:51:20 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 11:38:45 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5200ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9046ms
+  Rendered transaction/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 9ms (Views: 8.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-25 11:38:46 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-25 11:38:46 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-25 11:38:46 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-25 11:38:46 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-25 11:38:46 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 11:38:46 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 11:38:46 -0300
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1122ms
+  MOPED: 127.0.0.1:27017 INSERT       database=aluminium_development collection=credentials documents=[{"_id"=>BSON::ObjectId('53d26c9363656c518a000000'), "email"=>"alexandra.martins@agilealliance.org", "token"=>"DC87C64A965F4F008902F721E050F32E"}] flags=[]
+                         COMMAND      database=aluminium_development command={:getlasterror=>1, :w=>1} runtime: 106.6224ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2164ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=credentials selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 79.9957ms
+  MOPED: 127.0.0.1:27017 INSERT       database=aluminium_development collection=ab_transactions documents=[{"_id"=>BSON::ObjectId('53d26cc263656c51bc000000'), "date"=>2014-07-25 14:42:10 UTC, "qtd_initiated"=>0, "qtd_open"=>4, "qtd_paid"=>94, "qtd_available"=>0, "qtd_in_analysis"=>0, "qtd_total"=>108, "qtd_cancelled"=>10, "qtd_in_dispute"=>0, "qtd_refunded"=>0, "updated_at"=>2014-07-25 14:42:10 UTC, "created_at"=>2014-07-25 14:42:10 UTC}] flags=[]
+                         COMMAND      database=aluminium_development command={:getlasterror=>1, :w=>1} runtime: 0.7962ms
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 11:42:14 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9048ms
+  Rendered transaction/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 15ms (Views: 7.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-25 11:42:14 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-25 11:42:14 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-25 11:42:14 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-25 11:42:14 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-25 11:42:14 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 11:42:14 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 11:42:14 -0300
