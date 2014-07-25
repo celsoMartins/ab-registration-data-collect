@@ -4,10 +4,18 @@ namespace :data_collect do
 
   task collect: :environment do
 
-    credential = Credentials.first
+    # credential = Credentials.first
     PagSeguro.configure do |config|
+<<<<<<< HEAD
       config.token = credential.token
       config.email = credential.email
+=======
+      # config.token = credential.token
+      # config.email = credential.email
+
+      config.token = 'DC87C64A965F4F008902F721E050F32E'
+      config.email = 'alexandra.martins@agilealliance.org'
+>>>>>>> 71cde03ef8fa4098f9751f0c54ab010ced1397f9
     end
 
     report = PagSeguro::Transaction.find_by_date(:starts_at => 30.days.ago, :ends_at => Time.now)
