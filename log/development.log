@@ -1703,3 +1703,32 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 11:42:14
 
 
 Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 11:42:14 -0300
+
+
+Started GET "/transaction/index" for 127.0.0.1 at 2014-07-25 12:44:59 -0300
+Processing by TransactionController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2565ms
+  MOPED: 127.0.0.1:27017 QUERY        database=aluminium_development collection=ab_transactions selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0424ms
+  Rendered transaction/index.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 78ms (Views: 55.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-25 12:45:00 -0300
+
+
+Started GET "/assets/transaction.css?body=1" for 127.0.0.1 at 2014-07-25 12:45:00 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-25 12:45:00 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-25 12:45:00 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-25 12:45:00 -0300
+
+
+Started GET "/assets/transaction.js?body=1" for 127.0.0.1 at 2014-07-25 12:45:00 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-25 12:45:00 -0300
