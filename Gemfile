@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
@@ -56,4 +57,7 @@ gem 'less-rails'
 
 gem 'rails_12factor', group: :production
 
-ruby '2.1.2'
+group :development do
+  gem 'foreman'
+  gem 'dotenv-rails'
+end

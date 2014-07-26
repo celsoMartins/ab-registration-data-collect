@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-AbRegistrationDataCollect::Application.config.secret_key_base = 'c4a9445ffdce3c7fe5ce94f4e739fe51e7a1c896d4e0ccead185f57e6a8dd51ef1ef02c16307cffdfc17119cd973c598bf0f6b7b3148a8d7d3e116e5a283344d'
+AbRegistrationDataCollect::Application.config.secret_key_base = ENV['SECRET_BASE']

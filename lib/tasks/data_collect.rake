@@ -10,7 +10,7 @@ namespace :data_collect do
       config.email = credential.email
     end
 
-    report = PagSeguro::Transaction.find_by_date(:starts_at => 30.days.ago, :ends_at => Time.now)
+    report = PagSeguro::Transaction.find_by_date(:starts_at => 30.days.ago, :ends_at => 1.minute.ago)
 
     count_paid = 0; count_total = 0; count_cancelled = 0; count_waiting_payment = 0; count_available = 0; count_in_analysis = 0; qtd = 1
     count_initiated = 0; count_in_dispute = 0; count_refunded = 0;
