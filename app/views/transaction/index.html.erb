@@ -1,4 +1,13 @@
+<% content_for :header %>
+  <%= javascript_include_tag "http://code.highcharts.com/highcharts.js" %>
+  <%= javascript_include_tag "http://code.highcharts.com/modules/exporting.js" %>
+<% %>
 <h1>Lista de inscritos</h1>
+
+<div id='graph_container'>
+
+</div>
+
 <table class="table table-hover table-condensed">
   <thead>
       <tr>
@@ -16,22 +25,20 @@
       </tr>
   </thead>
 
-  <% count = 1 %>
-  <% @transactions.each do |transaction|%>
+  <% @transactions.each_with_index do |transaction, index|%>
       <tbody>
-          <tr>
-            <td><%= count %></td>
-            <td><%= l transaction.date, format: :long %></td>
-            <td><%= transaction.qtd_initiated %></td>
-            <td><%= transaction.qtd_open %></td>
-            <td><%= transaction.qtd_available %></td>
-            <td><%= transaction.qtd_in_analysis %></td>
-            <td><%= transaction.qtd_paid %></td>
-            <td><%= transaction.qtd_in_dispute %></td>
-            <td><%= transaction.qtd_refunded %></td>
-            <td><%= transaction.qtd_cancelled %></td>
-            <td><%= transaction.qtd_total %></td>
-            <% count += 1%>
+          <tr class='report'>
+            <td class='count'><%= index + 1 %></td>
+            <td class='date'><%= l transaction.date, format: :long %></td>
+            <td class='initiated'><%= transaction.qtd_initiated %></td>
+            <td class='open'><%= transaction.qtd_open %></td>
+            <td class='available'><%= transaction.qtd_available %></td>
+            <td class='in_analysis'><%= transaction.qtd_in_analysis %></td>
+            <td class='paid'><%= transaction.qtd_paid %></td>
+            <td class='in_dispute'><%= transaction.qtd_in_dispute %></td>
+            <td class='refunded'><%= transaction.qtd_refunded %></td>
+            <td class='cancelled'><%= transaction.qtd_cancelled %></td>
+            <td class='total'><%= transaction.qtd_total %></td>
           </tr>
       </tbody>
   <% end %>

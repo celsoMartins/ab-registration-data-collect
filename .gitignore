@@ -8,7 +8,6 @@ capybara-*.html
 /public/system
 /coverage/
 /spec/tmp
-/tmp/**/*
 **.orig
 rerun.txt
 pickle-email-*.html
@@ -29,4 +28,4 @@ config/secrets.yml
 .env
 
 log/*
-
+tmp/*
